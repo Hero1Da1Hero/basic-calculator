@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+}
+
+.calculator-frame {
+    width:30%;
+    background-image:linear-gradient(#ffffff,#ffe6e6,#ffcccc,#ffb3b3,#ff9999,#ff8080,#ff6666,#ff4d4d,#ff3333,#ff1a1a,#ff0000,#e60000,#cc0000,#b30000,#990000,#800000,#660000,#4d0000,#330000,#1a0000,#000000, #ffffff,#e6e6ff,#ccccff,#b3b3ff,#9999ff,#8080ff,#6666ff,#4d4dff,#3333ff,#1a1aff,#0000ff,#0000e6,#0000cc,#0000b3,#000099,#000080,#000066,#00004d,#000033,#00001a,#000000);
+    padding:20px;
+    margin:auto;
+}
+
+#calculator-display {
+    height: 2cm;
+    width: 100%;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: right;
+}
+
+.first-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    margin-top: 20px;
+    width: 2cm;
+    height: 2cm;
+    font-size: 25px;
+    font-weight: 600;
+    background-image:radial-gradient(#ffffff,#ffe6e6,#ffcccc,#ffb3b3,#ff9999,#ff8080,#ff6666,#ff4d4d,#ff3333,#ff1a1a,#ff0000,#e60000,#cc0000,#b30000,#990000,#800000,#660000,#4d0000,#330000,#1a0000,#000000);
+}
+
+.equal-to-button {
+    width: 4.6cm;
+}
+
+.blue-button {
+    background-image:radial-gradient(#ffffff,#e6e6ff,#ccccff,#b3b3ff,#9999ff,#8080ff,#6666ff,#4d4dff,#3333ff,#1a1aff,#0000ff,#0000e6,#0000cc,#0000b3,#000099,#000080,#000066,#00004d,#000033,#00001a,#000000);
+}

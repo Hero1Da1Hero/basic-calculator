@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>A Basic Calculator</h1>
+
+    <div class="calculator-container">
+        <div class="calculator-frame">
+            <!-- The calculator display -->
+            <input type="text" id="calculator-display">
+            <!-- The calculator buttons container -->
+            <div class="buttons-container">
+                <div class="first-row">
+                    <button class="blue-button" onclick="cleardisplay()">C</button>
+                    <button class="blue-button"onclick="plus_n_minus">+/-</button>
+                    <button class="blue-button" onclick="presentage()">%</button>
+                    <button class="blue-button" onclick="divide()">÷</button>
+                </div>
+                <div class="first-row">
+                    <button class="blue-button"onclick="writeNumberToScreen('7')">7</button>
+                    <button class="blue-button"onclick="writeNumberToScreen('8')">8</button>
+                    <button class="blue-button"onclick="writeNumberToScreen('9')">9</button>
+                    <button class="blue-button"onclick="multiply()">x</button>
+                </div>
+                <div class="first-row">
+                    <button onclick="writeNumberToScreen('4')">4</button>
+                    <button onclick="writeNumberToScreen('5')">5</button>
+                    <button onclick="writeNumberToScreen('6')">6</button>
+                    <button onclick="minus()">-</button>
+                </div>
+                <div class="first-row">
+                    <button onclick="writeNumberToScreen('1')">1</button>
+                    <button onclick="writeNumberToScreen('2')">2</button>
+                    <button onclick="writeNumberToScreen('3')">3</button>
+                    <button onclick="plus()">+</button>
+                </div>
+                <div class="first-row">
+                    <button onclick="writeNumberToScreen('0')">0</button>
+                    <button onclick="writeNumberToScreen('.')">.</button>
+                    <button class="equal-to-button"onclick="equals()">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+
+</html>
